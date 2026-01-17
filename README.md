@@ -7,7 +7,7 @@ SmartCrop AI is an intelligent farming assistant web application that helps farm
 3. **Fertilizer Purchase:** Select fertilizers, specify quantities, enter location, and place an order.
 
 
-
+---
 ## Features
 
 - **Responsive Design:** Works perfectly on mobile, tablet, and desktop devices.
