@@ -37,5 +37,8 @@ SmartCrop AI is an intelligent farming assistant web application that helps farm
 
   
 ---
+## Author
+
+**JAYANTH D R**
 
 
