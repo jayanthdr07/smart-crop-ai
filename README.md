@@ -6,7 +6,7 @@ SmartCrop AI is an intelligent farming assistant web application that helps farm
 2. **Crop Yield Prediction:** Predict expected crop yield based on crop type, soil type, and weather conditions.
 3. **Fertilizer Purchase:** Select fertilizers, specify quantities, enter location, and place an order.
 
----
+
 
 ## Features
 
