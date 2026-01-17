@@ -1,0 +1,111 @@
+body {
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(to bottom, #e0f7fa, #f0fff4);
+      color: #333;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 30px 10px;
+    }
+
+ 
+
+    .active { display: block; }
+
+    h1 {
+      text-align: center;
+      color: #2e7d32;
+      margin-bottom: 10px;
+    }
+
+    p {
+      text-align: center;
+      color: #555;
+      margin-bottom: 20px;
+    }
+
+    .card {
+      background: #ffffff;
+      border-radius: 16px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      padding: 25px;
+      margin: 20px 0;
+      transition: transform 0.3s, box-shadow 0.3s;
+      border-left: 6px solid #4caf50;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+    }
+
+    button {
+      width: 100%;
+      padding: 14px;
+      background: linear-gradient(to right, #43a047, #66bb6a);
+      color: white;
+      border: none;
+      border-radius: 12px;
+      font-size: 16px;
+      font-weight: 500;
+      cursor: pointer;
+      margin-top: 15px;
+      transition: all 0.3s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    button:hover {
+      background: linear-gradient(to right, #388e3c, #4caf50);
+      transform: translateY(-2px);
+    }
+
+    input, select {
+      width: 100%;
+      padding: 12px;
+      margin-top: 12px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-size: 14px;
+      transition: border 0.3s;
+    }
+
+    input:focus, select:focus {
+      border-color: #4caf50;
+      outline: none;
+      box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+    }
+
+    .small-btn {
+      background: #888;
+      margin-top: 15px;
+    }
+
+    .small-btn:hover {
+      background: #555;
+    }
+
+    /* Fade in animation */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Add a subtle leaf icon background to cards */
+    .card::before {
+      content: "??";
+      position: absolute;
+      font-size: 40px;
+      opacity: 0.1;
+      top: 15px;
+      right: 15px;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 500px) {
+      body { padding: 20px 10px; }
+      .card { padding: 20px; }
+    }

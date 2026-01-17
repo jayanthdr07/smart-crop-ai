@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Buy Fertilizers - SmartCrop AI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Page-specific CSS -->
+  <style>
+    form {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    label {
+      font-weight: 500;
+    }
+
+    input, select {
+      padding: 12px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-size: 14px;
+    }
+
+    .quantity {
+      width: 80px;
+      margin-left: 10px;
+    }
+
+    #orderMsg {
+      margin-top: 20px;
+      font-weight: bold;
+      color: #2e7d32;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="screen">
+    <h1>Buy Fertilizers</h1>
+
+    <div class="card">
+      <form id="buyForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" required>
+
+        <label for="location">Location:</label>
+        <input type="text" id="location" required>
+
+        <label>Fertilizers:</label>
+        <div>
+          <input type="checkbox" id="urea" value="Urea">
+          <label for="urea">Urea</label>
+          <input type="number" class="quantity" id="qtyUrea" min="1" placeholder="Qty">
+        </div>
+        <div>
+          <input type="checkbox" id="potash" value="Potash">
+          <label for="potash">Potash</label>
+          <input type="number" class="quantity" id="qtyPotash" min="1" placeholder="Qty">
+        </div>
+        <div>
+          <input type="checkbox" id="phosphorus" value="Phosphorus">
+          <label for="phosphorus">Phosphorus</label>
+          <input type="number" class="quantity" id="qtyPhosphorus" min="1" placeholder="Qty">
+        </div>
+        <div>
+          <input type="checkbox" id="neem" value="Neem Cake">
+          <label for="neem">Neem Cake</label>
+          <input type="number" class="quantity" id="qtyNeem" min="1" placeholder="Qty">
+        </div>
+        <div>
+          <input type="checkbox" id="compost" value="Compost">
+          <label for="compost">Compost</label>
+          <input type="number" class="quantity" id="qtyCompost" min="1" placeholder="Qty">
+        </div>
+
+        <button type="submit">Place Order</button>
+      </form>
+
+      <div id="orderMsg"></div>
+    </div>
+
+    <a href="fertilizer.html"><button class="small-btn">? Back</button></a>
+  </div>
+
+  <!-- Link to external JS -->
+  <script src="buy.js"></script>
+</body>
+</html>
