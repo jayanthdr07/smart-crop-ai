@@ -34,7 +34,10 @@ SmartCrop AI is an intelligent farming assistant web application that helps farm
 - Time-Saving: Combines multiple farming tools into a single, easy-to-access platform.
 - Educational Tool: Helps new farmers learn about crop diseases, soil types, and proper fertilizer use.
 - Order Convenience: Users can directly select fertilizers, specify quantity, and place orders with location details.
+### Screenshots
 
+### Home Screen
+![Home Screen](firstt.png)
 
 ### Disease
 ![Disease](disease.png)
