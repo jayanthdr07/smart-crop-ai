@@ -1,5 +1,5 @@
 # SmartCrop AI
-
+.
 SmartCrop AI is an intelligent farming assistant web application that helps farmers manage crop health and boost productivity. The platform offers three main functionalities:
 
 1. **Plant Disease Detection:** Upload a leaf image to detect plant diseases and get treatment recommendations.
