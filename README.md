@@ -1,4 +1,4 @@
-21# SmartCrop AI
+321# SmartCrop AI
 
 SmartCrop AI is an intelligent farming assistant web application that helps farmers manage crop health and boost productivity. The platform offers three main functionalities:
 
