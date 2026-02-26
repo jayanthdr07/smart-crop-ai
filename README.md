@@ -1,4 +1,4 @@
-7811# SmartCrop AI
+78111# SmartCrop AI
 
 SmartCrop AI is an intelligent farming assistant web application that helps farmers manage crop health and boost productivity. The platform offers three main functionalities:
 
